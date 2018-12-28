@@ -1,28 +1,35 @@
-(function($) {
-  "use strict"; // Start of use strict
+window.onhashchange = function () { // Scrolling
+	hash = location.hash.substring(1)
+	switch (hash) {
+		case 'about':
+			document.querySelector('#about').scrollIntoView()
+			break
+		case 'experience':
+			document.querySelector('#experience').scrollIntoView()
+			break
+		case 'education':
+			document.querySelector('#education').scrollIntoView()
+			break
+		case 'skills':
+			document.querySelector('#skills').scrollIntoView()
+			break
+		case 'interests':
+			document.querySelector('#interests').scrollIntoView()
+			break
+		case 'awards':
+			document.querySelector('#awards').scrollIntoView()
+			break
+		default:
+			break
+	}
+}
 
-  // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: (target.offset().top)
-        }, 1000, "easeInOutExpo");
-        return false;
-      }
-    }
-  });
+// Closes responsive menu when a scroll trigger link is clicked
+$('.js-scroll-trigger').click(function () {
+	$('.navbar-collapse').collapse('hide');
+});
 
-  // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
-  });
-
-  // Activate scrollspy to add active class to navbar items on scroll
-  $('body').scrollspy({
-    target: '#sideNav'
-  });
-
-})(jQuery); // End of use strict
+// Activate scrollspy to add active class to navbar items on scroll
+$('body').scrollspy({
+	target: '#sideNav'
+});
