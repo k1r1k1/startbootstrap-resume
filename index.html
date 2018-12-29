@@ -263,7 +263,13 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap.native@2.0.23/dist/bootstrap-native-v4.min.js"></script>
 
 	<!-- Custom scripts for this template -->
-	<script src="assets/resume.js"></script>
+	<script>
+		// Closes responsive menu when a scroll trigger link is clicked
+		document.querySelector('.navbar-collapse').addEventListener('click', function() {
+			if (document.querySelector('.navbar-toggler').getAttribute('aria-expanded') == 'true')
+			document.querySelector('.navbar-toggler').click()
+		});
+	</script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131453971-1"></script>
