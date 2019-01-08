@@ -8,13 +8,13 @@ body {
 	font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 	padding-top: 54px;
 	color: #696969;
-    background-color: #f7f7f7;
+    background-color: #f7f7f7
 }
 
 @media (min-width: 992px) {
 	body {
 		padding-top: 0;
-		padding-left: 17rem;
+		padding-left: 17rem
 	}
 }
 
@@ -27,32 +27,32 @@ h6 {
 	font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #353535;
+	color: #353535
 }
 
 h1 {
 	font-size: 6rem;
-	line-height: 5.5rem;
+	line-height: 5.5rem
 }
 
 h2 {
-	font-size: 3.5rem;
+	font-size: 3.5rem
 }
 
 h3 {
-	font-size: 2rem;
+	font-size: 2rem
 }
 
 p.lead {
 	font-size: 1.15rem;
-	font-weight: 400;
+	font-weight: 400
 }
 
 .subheading {
 	text-transform: uppercase;
 	font-weight: 500;
 	font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-	font-size: 1.5rem;
+	font-size: 1.5rem
 }
 
 .social-icons a {
@@ -65,33 +65,33 @@ p.lead {
 	text-align: center;
 	font-size: 1.5rem;
 	line-height: 3.5rem;
-	margin-right: 1rem;
+	margin-right: 1rem
 }
 
 .social-icons a:last-child {
-	margin-right: 0;
+	margin-right: 0
 }
 
 .social-icons a:hover {
-	background-color: #696969;
+	background-color: #696969
 }
 
 .dev-icons {
-	font-size: 3rem;
+	font-size: 3rem
 }
 
 .dev-icons .list-inline-item i:hover {
-	color: #696969;
+	color: #696969
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
 	font-weight: 800;
 	letter-spacing: 0.05rem;
-	text-transform: uppercase;
+	text-transform: uppercase
 }
 
 #sideNav .navbar-toggler:focus {
-	outline-color: #d48a6e;
+	outline-color: #d48a6e
 }
 
 @media (min-width: 992px) {
@@ -108,7 +108,7 @@ p.lead {
 		-ms-flex-direction: column;
 		flex-direction: column;
 		width: 17rem;
-		height: 100vh;
+		height: 100vh
 	}
 
 	#sideNav .navbar-brand {
@@ -116,13 +116,13 @@ p.lead {
 		display: -ms-flexbox;
 		display: flex;
 		margin: auto auto 0;
-		padding: 0.5rem;
+		padding: 0.5rem
 	}
 
 	#sideNav .navbar-brand .img-profile {
 		max-width: 10rem;
 		max-height: 10rem;
-		border: 0.5rem solid rgba(255, 255, 255, 0.2);
+		border: 0.5rem solid rgba(255, 255, 255, 0.2)
 	}
 
 	#sideNav .navbar-collapse {
@@ -136,7 +136,7 @@ p.lead {
 		-ms-flex-positive: 0;
 		flex-grow: 0;
 		width: 100%;
-		margin-bottom: auto;
+		margin-bottom: auto
 	}
 
 	#sideNav .navbar-collapse .navbar-nav {
@@ -144,63 +144,67 @@ p.lead {
 		-webkit-box-direction: normal;
 		-ms-flex-direction: column;
 		flex-direction: column;
-		width: 100%;
+		width: 100%
 	}
 
 	#sideNav .navbar-collapse .navbar-nav .nav-item {
-		display: block;
+		display: block
 	}
 
 	#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-		display: block;
+		display: block
 	}
 }
 
 section.resume-section {
 	padding-top: 5rem !important;
 	padding-bottom: 5rem !important;
-	max-width: 75rem;
+	max-width: 75rem
 }
 
 section.resume-section .resume-item .resume-date {
-	min-width: none;
+	min-width: none
 }
 
 @media (min-width: 768px) {
 	section.resume-section {
-		min-height: 100vh;
+		min-height: 100vh
 	}
 
 	section.resume-section .resume-item .resume-date {
-		min-width: 18rem;
+		min-width: 18rem
 	}
 }
 
 @media (min-width: 992px) {
 	section.resume-section {
 		padding-top: 3rem !important;
-		padding-bottom: 3rem !important;
+		padding-bottom: 3rem !important
 	}
 }
 
 .bg-primary {
-	background-color: #353535 !important;
+	background-color: #353535 !important
 }
 
 .text-primary {
-	color: #495057 !important;
+	color: #495057 !important
 }
 
 a {
-	color: #696969;
+	color: #696969
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: #353535;
+	color: #353535
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #696969;
+    color: #696969
+}
+
+.resume-item img {
+	height: 26px
 }
