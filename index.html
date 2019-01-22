@@ -152,7 +152,7 @@
 						<h3 class="mb-0">Vitebsk State Technological University</h3>
 						<div class="subheading mb-3">Part-time student</div>
 						<div>Information technology and robotics</div>
-					<!--<p>GPA: 3.6</p>-->
+						<!--<p>GPA: 3.6</p>-->
 					</div>
 					<div class="resume-date text-md-right">
 						<span class="text-primary">September 2015 - April 2020</span>
@@ -164,7 +164,7 @@
 						<h3 class="mb-0">Vitebsk State Technological College</h3>
 						<div class="subheading mb-3">Graduate</div>
 						<div>Information systems and technology</div>
-					<!--<p>GPA: 3.5</p>-->
+						<!--<p>GPA: 3.5</p>-->
 					</div>
 					<div class="resume-date text-md-right">
 						<span class="text-primary">September 2008 - July 2012</span>
@@ -241,17 +241,25 @@
 				<ul class="fa-ul mb-0">
 					<li>
 						<i class="fa-li fa fa-trophy text-warning"></i>
-						Graduate programmer - Vitebsk State Technological College '2012</li>
+						Graduate programmer - Vitebsk State Technological College '2012
+					</li>
 					<li>
 						<i class="fa-li fa fa-trophy text-warning"></i>
 						1<sup>st</sup>
-						Place (golos.io) - project Bee Social - Imaguru Blockchain Hackathon Spring 2018</li>
+						Place (golos.io) - project Bee Social - Imaguru Blockchain Hackathon Spring 2018
+					</li>
 					<li>
 						<i class="fa-li fa fa-trophy text-warning"></i>
-						In the top ten of "Social Voting" - project Bee Social - EOS Hackathon "Hong Kong" 2018</li>
+						In the top ten of "Social Voting" - project Bee Social - EOS Hackathon "Hong Kong" 2018
+					</li>
 					<li>
 						<i class="fa-li fa fa-trophy text-warning"></i>
-						Special award - project PEW - GameNode Hackathon "Minsk" 2018</li>
+						Special award - project PEW - GameNode Hackathon "Minsk" 2018
+					</li>
+					<li>
+						<i class="fa-li fa fa-trophy text-warning"></i>
+						Candidate for the Master of Sports in Pistol Shooting
+					</li>
 				</ul>
 			</div>
 		</section>
@@ -266,34 +274,44 @@
 		// Closes responsive menu when a scroll trigger link is clicked
 		document.querySelector('.navbar-collapse').addEventListener('click', function() {
 			if (document.querySelector('.navbar-toggler').getAttribute('aria-expanded') == 'true')
-			document.querySelector('.navbar-toggler').click()
+				document.querySelector('.navbar-toggler').click()
 		});
 	</script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131453971-1"></script>
 	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
 
-	  gtag('config', 'UA-131453971-1');
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-131453971-1');
 	</script>
 
 	<!-- Yandex.Metrika counter -->
-		<script type="text/javascript">
-		   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-		   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-		   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+	<script type="text/javascript">
+		(function(m, e, t, r, i, k, a) {
+			m[i] = m[i] || function() {
+				(m[i].a = m[i].a || []).push(arguments)
+			};
+			m[i].l = 1 * new Date();
+			k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+		})
+		(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-		   ym(51762170, "init", {
-				id:51762170,
-				clickmap:true,
-				trackLinks:true,
-				accurateTrackBounce:true
-		   });
-		</script>
-		<noscript><div><img src="https://mc.yandex.ru/watch/51762170" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+		ym(51762170, "init", {
+			id: 51762170,
+			clickmap: true,
+			trackLinks: true,
+			accurateTrackBounce: true
+		});
+	</script>
+	<noscript>
+		<div><img src="https://mc.yandex.ru/watch/51762170" style="position:absolute; left:-9999px;" alt="" /></div>
+	</noscript>
 	<!-- /Yandex.Metrika counter -->
 </body>
 
