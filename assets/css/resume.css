@@ -208,3 +208,12 @@ a:active {
 .resume-item img {
 	height: 26px
 }
+
+.resume-item .getsee-logo {
+	height: 16px;
+	margin-bottom: 4px;
+}
+
+.resume-item .azuro-logo {
+	height: 16px;
+}
